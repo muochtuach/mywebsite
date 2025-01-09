@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Muoch Tuach</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            color: #333;
+        }
+        header {
+            background: #4caf50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            width: 80%;
+            max-width: 800px;
+        }
+        section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("C:/Users/Yimam/Desktop/test app/personal website/image/IMG_20231222_141132_716~3 (1).jpg"); /* Background image */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3; /* Adjust opacity for text readability */
+            z-index: 1;
+        }
+        section h2, section p {
+            position: relative;
+            z-index: 2; /* Ensure text appears above background */
+        }
+        footer {
+            background: #263238;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 30px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: green;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            font-size: 1.2em;
+            color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Me</h1>
+</header>
+
+<section>
+    <h2>Muoch Tuach</h2>
+    <p>As a website developer, my expertise lies in web development, native mobile app development, and online teaching. I am skilled in various software and programming languages, allowing me to create dynamic and interactive digital experiences.</p>
+    <div class="social-links">
+        <a href="YOUR_LINKEDIN_URL_HERE" target="_blank">LinkedIn</a>
+        <a href="YOUR_GITHUB_URL_HERE" target="_blank">GitHub</a>
+        <a href="YOUR_TWITTER_URL_HERE" target="_blank">Twitter</a>
+    </div>
+</section>
+
+<footer>
+    <p>Contact: <a href="mailto:muoch.tuach@example.com">muoch.tuach@example.com</a></p>
+</footer>
+
+</body>
+</html>
