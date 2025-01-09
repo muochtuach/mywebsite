@@ -50,6 +50,19 @@
             position: relative;
             z-index: 2; /* Ensure text appears above background */
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+			
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
         footer {
             background: #263238;
             color: #fff;
